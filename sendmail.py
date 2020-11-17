@@ -54,4 +54,5 @@ def send_multiple_mail(email: str, password: str,send_to_email_addresses: List[s
     server.quit()  # Logout of the email server
 
 if __name__== '__main__':
-    pass
+    send_mail("reyizz43@gmail.com","sananeya","tutuk4354@gmail.com","Main","Subject")
+
